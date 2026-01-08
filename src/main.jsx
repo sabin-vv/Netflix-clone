@@ -7,7 +7,7 @@ import { AuthProvider } from './Context/AuthContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter >
+    <BrowserRouter basename="/Netflix-clone">
       <AuthProvider>
         <App />
       </AuthProvider>
